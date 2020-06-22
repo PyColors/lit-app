@@ -1,9 +1,9 @@
 import { LitElement, html, css } from 'lit-element';
 
-import './my-header';
-import './lit-app';
-import './my-element';
-import './my-footer';
+import './my-header.js';
+import './lit-app.js';
+import './my-element.js';
+import './package/components/shared/footer/my-footer.js';
 
 class MyPage extends LitElement {
   static get styles() {
