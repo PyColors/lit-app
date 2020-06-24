@@ -1,5 +1,5 @@
 import { LitElement, css, html } from 'lit-element';
-import { buttonStyles } from './button-styles.js';
+import { buttonStyles } from '../../../../button-styles.js';
 
 class MyHeader extends LitElement {
   static get styles() {
