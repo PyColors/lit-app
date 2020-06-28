@@ -2,7 +2,6 @@ import { LitElement, html, css } from 'lit-element';
 
 import './package/shared/footer/src/MyFooter.js';
 import './lit-app.js';
-import './my-element.js';
 import './package/shared/header/src/MyHeader.js';
 
 class MyPage extends LitElement {
@@ -28,22 +27,7 @@ class MyPage extends LitElement {
   }
 
   static get properties() {
-    return {
-      prop1: { type: String },
-      prop2: { type: Number },
-      prop3: { type: Boolean },
-      prop4: { type: Array },
-      prop5: { type: Object },
-    };
-  }
-
-  constructor() {
-    super();
-    this.prop1 = 'Hello World';
-    this.prop2 = 5;
-    this.prop3 = true;
-    this.prop4 = [1, 2, 3];
-    this.prop5 = { stuff: 'hi', otherStuff: 'wow' };
+    return {};
   }
 
   render() {
@@ -51,34 +35,6 @@ class MyPage extends LitElement {
       <my-header></my-header>
 
       <lit-app></lit-app>
-
-      <my-element>
-        <p>nope.</p>
-
-        <p>prop1: ${this.prop1}</p>
-        <p>prop2: ${this.prop2}</p>
-        <p>prop3: ${this.prop3}</p>
-
-        <p>
-          prop4:
-          ${this.prop4.map(
-            (item, index) =>
-              html`
-                <span>[${index}]:${item}&nbsp;</span>
-              `,
-          )}
-        </p>
-
-        <p>
-          prop5:
-          ${Object.keys(this.prop5).map(
-            item =>
-              html`
-                <span>${item}: ${this.prop5[item]}&nbsp;</span>
-              `,
-          )}
-        </p>
-      </my-element>
 
       <my-footer></my-footer>
     `;
