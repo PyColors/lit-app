@@ -1,7 +1,7 @@
 import { LitElement, html, css } from 'lit-element';
 
 import './package/shared/header/my-header.js';
-import './package/shared/footer/my-footer.js';
+import './package/shared/footer-element/footer-element.js';
 
 class MyPage extends LitElement {
   static get styles() {
@@ -35,7 +35,7 @@ class MyPage extends LitElement {
 
       Home
 
-      <my-footer></my-footer>
+      <footer-element></footer-element>
     `;
   }
 }
