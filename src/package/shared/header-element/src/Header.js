@@ -1,7 +1,7 @@
 import { LitElement, css, html } from 'lit-element';
 import { buttonStyles } from '../../../../button-styles.js';
 
-class MyHeader extends LitElement {
+class Header extends LitElement {
   static get styles() {
     return [
       buttonStyles,
@@ -24,4 +24,4 @@ class MyHeader extends LitElement {
   }
 }
 
-export { MyHeader };
+export { Header };

@@ -1,6 +1,6 @@
 import { LitElement, html } from 'lit-element';
 
-class FooterElement extends LitElement {
+class Footer extends LitElement {
   render() {
     return html`
       <footer>
@@ -10,4 +10,4 @@ class FooterElement extends LitElement {
   }
 }
 
-export { FooterElement };
+export { Footer };

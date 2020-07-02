@@ -1,3 +1,3 @@
-import { FooterElement } from './src/FooterElement.js';
+import { Footer } from './src/Footer.js';
 
-customElements.define('footer-element', FooterElement);
+customElements.define('footer-element', Footer);
