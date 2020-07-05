@@ -1,10 +1,8 @@
 import { LitElement, css, html } from 'lit-element';
-import { buttonStyles } from '../../../../button-styles.js';
 
 class Header extends LitElement {
   static get styles() {
     return [
-      buttonStyles,
       css`
         :host {
           display: block;
@@ -18,7 +16,6 @@ class Header extends LitElement {
     return html`
       <header>
         <div>Header</div>
-        <button class="blue-button">one button</button>
       </header>
     `;
   }

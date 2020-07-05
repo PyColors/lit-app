@@ -32,9 +32,7 @@ class MyPage extends LitElement {
   render() {
     return html`
       <header-element></header-element>
-
-      Home
-
+      Content
       <footer-element></footer-element>
     `;
   }
