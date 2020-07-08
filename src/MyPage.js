@@ -14,7 +14,6 @@ class MyPage extends LitElement {
         justify-content: flex-start;
         font-size: calc(10px + 2vmin);
         color: #fff;
-        max-width: 960px;
         margin: 0 auto;
         text-align: center;
         background: #ff6f91;

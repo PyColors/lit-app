@@ -20,7 +20,7 @@ class Header extends LitElement {
     return html`
       <header>
         <nav>
-          <a href="ligin">Login</a>
+          <a href="login">Login</a>
           <a href="register">Register</a>
         </nav>
       </header>
